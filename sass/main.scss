@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansshavian.css);
+@import "node_modules/compass-mixins/lib/compass/css3";
+* {
+  @include box-sizing(border-box);
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Noto Sans Shavian', sans-serif;
+  font-size: 14px;
+}
+#app {
+  height: 100%;
+}
